@@ -1,0 +1,19 @@
+# my additions
+target/
+test-output/
+#################
+## Eclipse
+#################
+
+#.project
+#*.pydevproject
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+.classpath
+.settings/
+.loadpath
