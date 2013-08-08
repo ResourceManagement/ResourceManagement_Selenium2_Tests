@@ -166,7 +166,7 @@ public class Helper {
      * @throws Exception
      */
     public double getRandomValue(double min, double max) throws Exception {
-        return min + Math.random() * (max - min);
+        return min + (Math.random() * (max - min));
     }
 
     /**
