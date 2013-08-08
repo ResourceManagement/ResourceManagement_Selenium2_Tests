@@ -2,11 +2,11 @@
 package tests;
 
 
-import org.openqa.selenium.*;
-import org.openqa.selenium.firefox.*;
-import org.testng.annotations.*;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
 
-import page_helpers.*;
+import page_helpers.PageHelper_Home;
 
 
 public class PageTests_Home extends PageHelper_Home {
@@ -15,6 +15,7 @@ public class PageTests_Home extends PageHelper_Home {
 
     public void setUp() throws Exception {
         browser = new FirefoxDriver();
+        browser.get("http://www.google.com");
     }
 
     public void tearDown() throws Exception {
